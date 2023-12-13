@@ -1,0 +1,56 @@
+{
+  "name": "@toridoriv/toolkit",
+  "version": "0.1.0",
+  "description": "A set of utility libraries for my projects. Use at your own risk.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toridoriv/toolkit.git"
+  },
+  "keywords": [
+    "toolkit",
+    "utilities",
+    "typescript"
+  ],
+  "author": {
+    "name": "Tori Rodriguez",
+    "email": "vrodriguezfe@icloud.com",
+    "url": "https://github.com/toridoriv"
+  },
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/toridoriv/toolkit/issues"
+  },
+  "homepage": "https://github.com/toridoriv/toolkit#readme",
+  "devDependencies": {
+    "@homer0/prettier-plugin-jsdoc": "^8.0.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsdoc": "^46.9.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "browser": true,
+      "commonjs": false
+    },
+    "extends": [
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": "latest"
+    },
+    "plugins": [
+      "jsdoc"
+    ]
+  }
+}
