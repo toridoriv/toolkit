@@ -18,5 +18,9 @@
     "source.organizeImports": "always"
   },
   "eslint.enable": true,
-  "eslint.format.enable": true
+  "eslint.format.enable": true,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "javascript.suggest.jsdoc.generateReturns": true,
+  "javascript.suggest.completeJSDocs": true
 }
