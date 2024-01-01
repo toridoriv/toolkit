@@ -6,7 +6,15 @@
     "noEmit": true,
     "maxNodeModuleJsDepth": 10,
     "isolatedModules": true,
-    "lib": ["ESNext"]
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "strictNullChecks": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": false,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "downlevelIteration": false,
+    "noErrorTruncation": true
   },
   "exclude": ["node_modules"]
 }
