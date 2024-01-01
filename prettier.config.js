@@ -15,8 +15,16 @@ export default {
   plugins: ["@homer0/prettier-plugin-jsdoc"],
   jsdocEnsureDescriptionsAreSentences: true,
   jsdocPrintWidth: 100,
-  jsdocTagsOrder: ["example", "template", "param", "returns", "typedef"],
+  jsdocTagsOrder: [
+    "example",
+    "template",
+    "param",
+    "returns",
+    "namespace",
+    "typedef",
+  ],
   jsdocFormatExamples: false,
+  jsdocUseTypeScriptTypesCasing: false,
 };
 
 /**
