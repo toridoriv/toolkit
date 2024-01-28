@@ -14,7 +14,8 @@
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "downlevelIteration": false,
-    "noErrorTruncation": true
+    "noErrorTruncation": true,
+    "skipLibCheck": true
   },
   "exclude": ["node_modules"]
 }
