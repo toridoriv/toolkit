@@ -1,26 +1,37 @@
 {
   "[javascript]": {
+    "editor.codeActionsOnSave": ["source.fixAll.eslint"],
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    "editor.rulers": [80]
+    "editor.formatOnSave": true
   },
-  "[json][jsonc]": {
-    "editor.quickSuggestions": {
-      "strings": true
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[json]": {
+    "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
   },
-  "files.exclude": {
-    "node_modules": false
+  "[jsonc]": {
+    "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
   },
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "always",
-    "source.organizeImports": "always"
+  "[markdown]": {
+    "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
   },
   "eslint.enable": true,
+  "eslint.experimental.useFlatConfig": true,
   "eslint.format.enable": true,
-  "typescript.tsdk": "./node_modules/typescript/lib",
+  "eslint.runtime": "node",
+  "eslint.validate": ["json", "jsonc", "javascript", "markdown", "typescript"],
+  "javascript.suggestionActions.enabled": false,
+  "typescript.disableAutomaticTypeAcquisition": true,
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "javascript.suggest.jsdoc.generateReturns": true,
-  "javascript.suggest.completeJSDocs": true
+  "typescript.suggest.autoImports": true,
+  "typescript.tsdk": "./node_modules/typescript/lib"
 }
