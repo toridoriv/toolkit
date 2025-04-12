@@ -14,7 +14,7 @@ logs
 npm-debug.log*
 
 # 💬 Temporary
-.tmp
-tmp
+*.tmp
 tmp.*
+tmp/
 var/tmp
