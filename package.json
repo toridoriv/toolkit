@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "description": "A set of utility libraries for my projects. Use at your own risk.",
   "type": "module",
-  "main": "./index.cjs",
-  "module": "./index.mjs",
-  "typings": "./index.d.ts",
-  "files": ["./index.mjs", "index.cjs", "index.d.ts", "./lib"],
+  "typings": "dist/index.d.ts",
+  "files": ["dist", "lib", "LICENSE"],
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.cjs"
+  },
   "scripts": {
     "doc": "typedoc",
     "predoc": "rm -rf docs",

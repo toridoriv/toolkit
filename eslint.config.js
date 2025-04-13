@@ -35,5 +35,11 @@ export default [
   eslintConfig.serialization.json,
   eslintConfig.serialization.jsonc,
   eslintConfig.markup.markdown,
+  {
+    languageOptions: {
+      sourceType: "commonjs",
+    },
+    files: ["dist/cjs/index.js"],
+  },
   eslintConfig.prettier,
 ];
